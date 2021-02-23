@@ -14,7 +14,7 @@ function klat() {
 	        text[6] = '<u>' + sum2.toFixed(3) + '</u>'
         
         	if (isNaN(val)) {
-        		text = "Hvordan vil du konvertere <i>" + val + "</i> til kalorier? dumbass.";
+        		text = "Hvordan vil du konvertere " + val + " til kalorier? dumbass.";
         	} else {
         		text.forEach(Element => {
         			text = text.toString().replace(',', ' ');
