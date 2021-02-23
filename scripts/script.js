@@ -1,6 +1,14 @@
+var input = document.getElementById("ml");
+input.addEventListener("keyup", function(event) {
+	if (event.keyCode == 13) {
+		event.preventDefault();
+		document.getElementById("btn").click();
+	}
+});
+
 function klat() {
 	if (document.getElementById("ml").value != "") {
-		var val = document.getElementById("ml").value;
+		var val = input.value;
 		var sum1 = parseFloat(val, 10) * 0.133 * 3.5;
 		var sum2 = parseFloat(val, 10) * 0.467 * 3.5;
 								
