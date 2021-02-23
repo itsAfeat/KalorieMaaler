@@ -11,15 +11,16 @@
 		<link rel="icon" type="image/png" href="images/favicon.png">
 	</head>
 	<body>
-		<center>
 			<h1 class="header" id="flash"><i>Cum</i>lorier</h1>
 			<hr>
 			
-			<label>Sæd (klt): </label>
+		<center>
+			<label id="unit">Sæd (klt): </label>
 			<input id="ml" autofocus>
 			<br><br>
 			
-			<button id="btn" onclick="klat()">Konverter</button>
+			<button id="btn" onclick="Klat()">Konverter</button>
+			<img id="switch" onclick="SwitchUnit()" src="images/switch.png">
 			<p id="res"></p>
 		</center>
 		<footer><i>Note: 1 klt (klat) er lig med 3.5 ml</i></footer>
