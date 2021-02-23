@@ -10,7 +10,7 @@ input.addEventListener("keyup", function(event) {
 
 function Klat() {
 	if (document.getElementById("ml").value != "") {
-		var val = input.value;	
+		var val = input.value.replace(/,/g, '.');
 		var text = "";
 
 		if (unit == 0) {
@@ -33,8 +33,8 @@ function Klat() {
        			});
        		}
 		} else {
-			var sum2 = parseFloat(val, 10) / 0.133 / 3.5;
 			var sum1 = parseFloat(val, 10) / 0.467 / 3.5;
+			var sum2 = parseFloat(val, 10) / 0.133 / 3.5;
 
 			if (isNaN(val)) {
 				document.getElementById("ml").value = "";
