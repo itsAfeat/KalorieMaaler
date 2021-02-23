@@ -33,8 +33,8 @@ function Klat() {
        			});
        		}
 		} else {
-			var sum1 = parseFloat(val, 10) / 0.133 / 3.5;
-			var sum2 = parseFloat(val, 10) / 0.467 / 3.5;
+			var sum2 = parseFloat(val, 10) / 0.133 / 3.5;
+			var sum1 = parseFloat(val, 10) / 0.467 / 3.5;
 
 			if (isNaN(val)) {
 				document.getElementById("ml").value = "";
