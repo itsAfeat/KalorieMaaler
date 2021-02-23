@@ -1,3 +1,3 @@
-# KalorieMaaler
+# Kalorie Måler
 
 Jeg var fuld
