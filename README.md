@@ -1,3 +1,3 @@
 # Kalorie Måler
 
-Jeg var fuld
+Klatkage kalorie tæller
