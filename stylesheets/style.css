@@ -20,6 +20,7 @@ footer {
     color: #8a8a8a;
     background-color: #26238a;
     font-size: 20px;
+    float: left;
 }
 
 button, input {
@@ -41,9 +42,9 @@ button, input {
 }
 
 #copyright-label {
-    text-align: right;
-    text-decoration: underline;
-    text-shadow: 2px 2px black;
+    padding-right: 1.5%;
+    float: right;
+    /*text-shadow: 2px 2px black;*/
 }
 
 .header {
