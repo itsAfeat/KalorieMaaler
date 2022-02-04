@@ -40,6 +40,12 @@ button, input {
     padding-left: 10px;
 }
 
+#copyright-label {
+    text-align: right;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+
 .header {
     padding-top: 150px;
     font-size: 50px;
